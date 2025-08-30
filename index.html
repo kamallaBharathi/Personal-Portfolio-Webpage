@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f8f4ef;
+            color: #333;
+        }
+
+        header {
+            background-color: #e74c3c;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #f39c12;
+        }
+
+        section {
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h1, h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .project {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kamalla Bharathi</h1>
+        <p>Frontend Developer | Web Designer</p>
+<nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I am a passionate frontend developer with skills in HTML, CSS, and JavaScript. I love creating responsive and visually appealing websites.</p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Project One</h3>
+                <p>A responsive landing page built using HTML and CSS.</p>
+            </div>
+            <div class="project">
+                <h3>Project Two</h3>
+                <p>A portfolio site with smooth scrolling navigation.</p>
+            </div>
+            <div class="project">
+                <h3>Project Three</h3>
+                <p>An e-commerce product page designed with Flexbox and Grid.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: kamalla.bharathi@example.com</p>
+    </section>
+
+    <footer>
+        <p>© 2025 Kamalla Bharathi. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
