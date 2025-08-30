@@ -16,4 +16,4 @@ DESCRIPTION:A portfolio website acts as a digital résumé or showcase for devel
 
 #OUTPUT
 
-<img width="1920" height="1008" alt="Image" src="https://github.com/user-attachments/assets/4a791c13-b652-4f88-93ce-bd1d5e70263c" />
+
